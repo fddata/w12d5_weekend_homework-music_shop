@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4080796d-c41b-4d48-84f6-3bab5d2426ae" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/instruments/Stringed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/instruments/StringedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/instruments/Woodwind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/instruments/WoodwindTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Instrument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/InstrumentFamily.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/InstrumentFamily.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interfaces/IPlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/IPlay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interfaces/ISell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/ISell.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -52,20 +47,38 @@
       <file leaf-file-name="Stringed.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/instruments/Stringed.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="134">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringedTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StringedTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/instruments/StringedTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+            <state relative-caret-position="413">
+              <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Woodwind.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/instruments/Woodwind.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WoodwindTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/instruments/WoodwindTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -416,6 +429,8 @@
         <option value="$PROJECT_DIR$/src/main/java/instruments/Stringed.java" />
         <option value="$PROJECT_DIR$/src/main/java/instruments/Instrument.java" />
         <option value="$PROJECT_DIR$/src/test/java/instruments/StringedTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/instruments/Woodwind.java" />
+        <option value="$PROJECT_DIR$/src/test/java/instruments/WoodwindTest.java" />
       </list>
     </option>
   </component>
@@ -524,7 +539,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringedTest.canCalculateMarkup">
+  <component name="RunManager" selected="JUnit.All in MusicShopWeekendHomework_test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -591,6 +606,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="WoodwindTest.play" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MusicShopWeekendHomework_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="instruments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="instruments" />
+      <option name="MAIN_CLASS_NAME" value="instruments.WoodwindTest" />
+      <option name="METHOD_NAME" value="play" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -633,11 +671,13 @@
       <item itemvalue="JUnit.StringedTest" />
       <item itemvalue="JUnit.All in MusicShopWeekendHomework_test" />
       <item itemvalue="JUnit.StringedTest.canCalculateMarkup" />
+      <item itemvalue="JUnit.WoodwindTest.play" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringedTest.canCalculateMarkup" />
         <item itemvalue="JUnit.All in MusicShopWeekendHomework_test" />
+        <item itemvalue="JUnit.WoodwindTest.play" />
+        <item itemvalue="JUnit.StringedTest.canCalculateMarkup" />
         <item itemvalue="JUnit.StringedTest" />
       </list>
     </recent_temporary>
@@ -655,14 +695,27 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="StringedTest - 2018.10.07 at 15h 15m 14s.xml">
+      <configuration name="StringedTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_MusicShopWeekendHomework_test - 2018.10.07 at 15h 15m 36s.xml">
+      <configuration name="All in MusicShopWeekendHomework_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringedTest_canCalculateMarkup - 2018.10.07 at 15h 16m 52s.xml">
+      <configuration name="StringedTest.canCalculateMarkup" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32965517" />
       <window_info id="Designer" />
@@ -723,20 +776,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/instruments/Stringed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/instruments/StringedTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+        <state relative-caret-position="413">
+          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/instruments/Stringed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/instruments/Woodwind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/instruments/WoodwindTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
         </state>
       </provider>
     </entry>
