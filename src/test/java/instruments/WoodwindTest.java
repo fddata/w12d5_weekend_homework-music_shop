@@ -28,4 +28,9 @@ public class WoodwindTest {
     public void play() {
         assertEquals("A windy noise fills the air", clarinet.play());
     }
+
+    @Test
+    public void canCalculateMarkup() {
+        assertEquals(19.99, clarinet.calculateMarkup(),0.1);
+    }
 }
