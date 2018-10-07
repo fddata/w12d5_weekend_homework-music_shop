@@ -4,6 +4,6 @@ public enum InstrumentFamily {
 
     PERCUSSION,
     WOODWIND,
-    STRING,
+    STRINGS,
     BRASS;
 }

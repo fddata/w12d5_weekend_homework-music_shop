@@ -1,8 +1,10 @@
 package instruments;
 
-public class Instrument implements IPlay, ISell{
+import interfaces.IPlay;
+import interfaces.ISell;
 
-    private InstrumentFamily family;
+public abstract class Instrument implements ISell, IPlay {
+
     private InstrumentColour colour;
     private String name;
     private String brand;
@@ -16,4 +18,10 @@ public class Instrument implements IPlay, ISell{
         this.wholesalePrice = wholesalePrice;
         this.retailPrice = retailPrice;
     }
+
+    public double calculateMarkup(){
+        return (this.retailPrice - this.wholesalePrice);
+    }
+
+
 }
