@@ -37,6 +37,13 @@ public class ShopTest {
     }
 
     @Test
+    public void removeItemFromStock() {
+        shop.addItemToStock(guitar);
+        shop.removeItemFromStock(guitar);
+        assertEquals(0, shop.getNumberOfItems());
+    }
+
+    @Test
     public void calculateProfit() {
         shop.addItemToStock(guitar);
         shop.addItemToStock(guitarStrings);

@@ -558,26 +558,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShopTest.calculateProfit">
+  <component name="RunManager" selected="JUnit.All in MusicShopWeekendHomework_test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="All in MusicShopWeekendHomework_test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MusicShopWeekendHomework_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="All in MusicShopWeekendHomework_test (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MusicShopWeekendHomework_test" />
@@ -647,6 +630,23 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="ShopTest.removeItemFromStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MusicShopWeekendHomework_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShopTest" />
+      <option name="METHOD_NAME" value="removeItemFromStock" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -687,18 +687,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in MusicShopWeekendHomework_test" />
-      <item itemvalue="JUnit.All in MusicShopWeekendHomework_test (2)" />
       <item itemvalue="JUnit.All in MusicShopWeekendHomework_test (3)" />
       <item itemvalue="JUnit.ShopTest.addItemToStock" />
       <item itemvalue="JUnit.ShopTest.calculateProfit" />
+      <item itemvalue="JUnit.ShopTest.removeItemFromStock" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ShopTest.calculateProfit" />
         <item itemvalue="JUnit.All in MusicShopWeekendHomework_test" />
+        <item itemvalue="JUnit.ShopTest.removeItemFromStock" />
+        <item itemvalue="JUnit.ShopTest.calculateProfit" />
         <item itemvalue="JUnit.ShopTest.addItemToStock" />
         <item itemvalue="JUnit.All in MusicShopWeekendHomework_test (3)" />
-        <item itemvalue="JUnit.All in MusicShopWeekendHomework_test (2)" />
       </list>
     </recent_temporary>
   </component>
